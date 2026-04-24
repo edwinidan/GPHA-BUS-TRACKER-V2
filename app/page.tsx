@@ -112,7 +112,7 @@ export default function HomePage() {
       </header>
 
       {/* Map — fills all remaining space */}
-      <div className="flex-1 min-h-0 overflow-hidden">
+      <div className="flex-1 min-h-0 overflow-hidden relative">
         <MapComponent buses={BUS_CONFIG} locations={locations} />
       </div>
 

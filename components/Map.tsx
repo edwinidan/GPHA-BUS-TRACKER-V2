@@ -113,5 +113,5 @@ export default function MapComponent({ buses, locations }: MapProps) {
     });
   }, [buses, locations]);
 
-  return <div ref={mapDivRef} className="h-full w-full" />;
+  return <div ref={mapDivRef} className="w-full h-full absolute inset-0 z-0" />;
 }
